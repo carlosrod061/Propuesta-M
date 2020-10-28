@@ -1,0 +1,63 @@
+#mainNav{
+    background-color: #2c4cbc;
+}
+
+#footerp{
+    background-color: #2c4cbc;
+    display: block;
+    color: white;
+}
+
+#redesSociales{
+    display: inline-block;
+}
+
+#accordion .card .card-header{
+    
+    background-color: #5dbcd2;
+}
+
+#accordion .card .card-header h5 button{
+    color: white;
+}
+
+
+
+#accordion .card .collapse{
+    background-color: #1abc9c;
+}
+
+#tituloServicio{
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    background-color: #04AC84;
+}
+
+#collage .col-md-4{
+    margin-left: -4rem;
+}
+
+#collage .row{
+    margin-left: 12rem;
+}
+
+#carouselExampleIndicators{
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+.list-group .list-group-item{
+    background-color: #1abc9c;
+}
+
+#contactoinfo{
+    background-color: gray;
+}
+#infoservicio{
+    background-color: gray;
+}
+
+body{
+    font-family: "Open Sans";
+}
+h1 { font-family: "Open Sans"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Open Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Open Sans"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Open Sans"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
