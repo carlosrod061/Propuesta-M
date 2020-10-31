@@ -23,70 +23,7 @@
 <body id="page-top">
 	<!-- Navigation-->
 
-	<nav class="navbar navbar-expand-lg text-uppercase fixed-top" style="background-color: #2c4cbc;" id="mainNav">
-		<div id="contenidoBarra" class="container">
-		  <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../../assets/img/logoUniversidad.png" alt=""></a>
-		  <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
-			type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-			aria-expanded="false" aria-label="Toggle navigation">
-			Inicio
-			<i class="fas fa-bars"></i>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
-			  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-				href="inicio.html">Inicio</a></li>
-			<li class="mx-0 mx-lg-1 nav-item dropdown">
-			  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger dropdown-toggle"
-				href="../Nosotros/nosotros.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false">
-				Nosotros
-			  </a>
-			  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				<a class="dropdown-item" href="../Nosotros/nosotros.html">Nosotros</a>
-				<a class="dropdown-item" href="#">Directorio</a>
-				<a class="dropdown-item" href="#">Semblanza Cronologica</a>
-				<a class="dropdown-item" href="#">Normateca</a>
-				<a class="dropdown-item" href="#">Calidad Educativa</a>
-				<a class="dropdown-item" href="#">Política Ambiental</a>
-				<a class="dropdown-item" href="#">Quejas y Sugerencias</a>
-			  </div>
-			</li>
-			<li class="mx-0 mx-lg-1 nav-item dropdown">
-			  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger dropdown-toggle" href="#"
-				id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false">
-				Estudiantes
-			  </a>
-			  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				<a class="dropdown-item" href="../Estudiantes/estudiantes.html">Becas</a>							
-								<a class="dropdown-item" href="estudiantes.html">Titulación</a>	
-								<a class="dropdown-item" href="estudiantes.html">Calendario Escolar</a>	
-								<a class="dropdown-item" href="estudiantes.html">Estadias Profecionales</a>	
-								<a class="dropdown-item" href="estudiantes.html">Movilidad Estudantil</a>	
-								<a class="dropdown-item" href="estudiantes.html">CNBES</a>						
-			  </div>
-			</li>
-			  <li class="mx-0 mx-lg-1 nav-item dropdown">
-				<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger dropdown-toggle" href="#"
-				  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				  Servicios
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				  <a class="dropdown-item" href="../servicios/agriculturaprotegida.html">Agricultura Protegida</a>
-				  <a class="dropdown-item" href="#">Seguimiento de egresados y Bolsa de Trabajo</a>
-				  <a class="dropdown-item" href="#">Capacitación y adiestramento</a>
-				  <a class="dropdown-item" href="#">Desarrollo de Software</a>
-				  <a class="dropdown-item" href="#">Incubación de empresas</a>
-				  <a class="dropdown-item" href="#">Servicios empresariales</a>
-				  <a class="dropdown-item" href="#">Centro de evaluación</a>
-				</div>
-			  </li>
-			</ul>
-		  </div>
-		  <a href="" class="ml-5"><img src="../../assets/img/wheelchair.png" width="25" height="25"></a>
-		</div>
-	  </nav>
+	<?php include '../Plantillas/header.php';?>
 	<!-- Masthead-->
 	<header class=" masthead bg-primary text-white">
 		<!--Carousel -->
@@ -302,40 +239,7 @@
 	</header>
 
 
-
-
-	<!-- Footer-->
-	<footer id="footerp">
-		<div class="container">
-			<div class="row" style="padding-top: 20px;">
-				<!-- Footer Location-->
-
-				<!-- Footer Social Icons-->
-				<div class="col-md-2" id="redesSociales">
-					<h6 class="text-uppercase">Conectate con nosotros</h6>
-				</div>
-				<div class="col-md-0.5"> <a class="btn btn-outline-light btn-social" href="#!"><i
-							class="fab fa-fw fa-facebook-f"></i></a></div>
-				<div class="col-md-0.5"> <a class="btn btn-outline-light btn-social" href="#!"><i
-							class="fab fa-fw fa-twitter"></i></a></div>
-				<div class="col-md-0.5"><a class="btn btn-outline-light btn-social" href="#!"> <i
-							class="fab fa-youtube"></i></a></div>
-				<div class="col-md-3">
-					<p>Campus Dolores Hidalgo Av.
-						Educacion Tecnologica
-						No.34.Fracc. Universidad</p>
-				</div>
-				<div class="col-md-3" style="margin-left: -5rem;">
-					<p>Campus Victoria Carretera Victoria-San Luis de la Paz Km.3. Col. Del Paso Hondo</p>
-				</div>
-				<div class="col-md-1"><a href=""><img src="../../assets/img/siga-color.png" width="60" height="60"></a></div>
-				<div class="col-md-1"><a href=""><img src="../../assets/img/plataforma-color.png" width="60" height="60"></a>
-				</div>
-				<div class="col-md-1"><a href=""><img src="../../assets/img/premioaltares.png" width="60" height="60"></a>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php include '../Plantillas/footer.php';?>
 
 	<!-- Bootstrap core JS-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
