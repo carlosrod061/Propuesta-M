@@ -32,7 +32,7 @@
       <div class="card" id="tituloServicio">
         <div class="card-body">
           <h4>
-            Agricultura Protegida
+            Desarrollo de Software
           </h4>
         </div>
       </div>
@@ -46,14 +46,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/cactus1.jpg" alt="First slide" height="350">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/hidro.jpg" alt="Second slide" height="350">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/huerto-urbano.jpg" alt="Third slide"
-              height="350">
+            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/desarrollodesoftware/SoftwareBanner.jpg" alt="First slide" height="350">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -81,24 +74,7 @@
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
               <p class="text-justify">
-                El crecimiento demográfico de nuestra entidad, nos plantea el reto de ser más eficientes en el manejo de
-                los recursos naturales, ser competitivos y eficientes para producir más y mejores alimentos, a través de
-                sistemas de producción sustentados en tecnologías de vanguardia que permitan la coexistencia, el
-                desarrollo y mejoramiento de las condiciones socioeconómicas de las comunidades de influencia de la
-                UTNG. Para enfrentar esos retos es necesaria la actualización y transferencia de la investigación
-                generada en Instituciones de Educación e Investigación y sus resultados sean transferidos y adoptados
-                más rápidamente por los productores comunitarios.
-                <br>
-                <br>
-                La agricultura protegida es aquella que se realiza bajo métodos de producción que ayudan a ejerce
-                determinado grado de control sobre los diversos factores del medio ambiente. Permitiendo con ello
-                minimizar las restricciones que las malas condiciones climáticas ocasionan en los cultivos y optimizar
-                su rendimiento.
-                <br>
-                <br>
-                En ese mismo sentido la UTNG como una institución de educación e investigación, cuenta con una colección
-                de cactáceas del norte y noreste de Guanajuato, lo cual nos permite conservar, reproducir, educar y
-                difundir la importancia de esta notable familia de plantas.
+              ©CADES Somos un Centro Avanzado de Desarrollo de Software (CADES), nos dedicamos a brindar soluciones a través del desarrollo de software a la medida que le permita a nuestros clientes mejorar su proceso, comunicación entre las áreas, efectividad en los resultados y con esto reducir costos, tiempo y esfuerzos.
               </p>
             </div>
           </div>
@@ -114,13 +90,19 @@
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
+              <!-- Contenido servicios-->
               <ul class="list-group">
-                <li class="list-group-item">Reproducción y manejo de cactáceas</li>
-                <li class="list-group-item">Diseño y establecimiento de jardines de bajo consumo de agua(Jardine
-                  Xéricos)</li>
-                <li class="list-group-item">Transferencia de la tecnología de jitomate via agricultua protegida</li>
-                <li class="list-group-item">Capacitación en el establecimiento de huertos urbanos</li>
-                <li class="list-group-item">Capacitación en la producción de lombricomposta</li>
+                <li class="list-group-item">* <b>Desarrollo de software a medida: </b> 
+                <p>Ofrecemos soluciones informáticas para sus procesos empresariales. Nuestro equipo se encargará de estudiar las necesidades tecnológicas que su negocio pueda tener para ofrecerle una solución personalizada que le haga ganar en tiempo, productividad y rentabilidad.</p>
+                </li>
+                <li class="list-group-item">* <b> Diseño de paginas web:</b> 
+                <p>El Diseño de página web de su empresa es su carta de presentación ante el mundo. La calidad de su sitio web tiene que reflejar la calidad de sus productos y servicios. Planificamos, diseñamos y desarrollamos la web que se ajuste a las necesidades de su empresa. Combinando estrategia, creatividad y diseño creamos sitios web que buscan el mayor impacto a la hora de comunicar su negocio</p></li>
+                <li class="list-group-item">* <b> Tienda en linea: </b>
+                <p>Al igual que en las tiendas físicas tradicionales los productos o servicios están expuestos para que el cliente los pueda ver, valorar y finalmente comprar.</p></li>
+                <li class="list-group-item">* <b>Diseño multimedia: </b> 
+                <p>Ofrecemos productos multimedia tales como: imagen corporativa, logotipos, videos, spot publicitarios, fotografía de producto y retoque, animaciones, catalogos y aplicaciones interactivas, etc.</p></li>
+                <li class="list-group-item">* <b>Desarrollo de aplicaciones móviles: </b> 
+                <p>Desarrollamos aplicaciones nativas para IOS, Android, Windows Phone y aplicaciones multi-plataforma.</p></li>
               </ul>
             </div>
           </div>
@@ -130,17 +112,40 @@
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
                 aria-expanded="false" aria-controls="collapseThree">
-                Clientes
+                Proyectos
               </button>
             </h5>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
+            <ul class="list-group">
+                <li class="list-group-item">* <b>Sistema integral administrativa: </b> 
+                <p>Sistema que permite gestionar y dar seguimiento a los Programas Operativos Anuales de las distintas áreas. Cuenta con un semáforo que indica el cumplimiento o no cumplimiento de alguna meta en un área específica en algún área. Permite asociar las metas a estrategias, ejes y objetivos particulares del Plan Nacional de Desarrollo.</p>
+                </li>
+                <li class="list-group-item">* <b> Atención ciudadana:</b> 
+                <p>Sistema que gestiona las solicitudes de los ciudadanos a los distintos programas de apoyo que ofrecen los municipios, así también gestiona las solicitudes (ventanilla única) hacia las distintas áreas manejando un semáforo para las fechas compromiso. El sistema detecta apoyos anteriormente otorgados a los solicitantes, a sus familiares y a las personas que viven en el mismo domicilio.</p></li>
+                <li class="list-group-item">* <b> Programa Operativo Anual: </b>
+                <p>Sistema que permite gestionar y dar seguimiento a los Programas Operativos Anuales de las distintas áreas. Cuenta con un semáforo que indica el cumplimiento o no cumplimiento de alguna meta en un área específica en algún área. Permite asociar las metas a estrategias, ejes y objetivos particulares del Plan Nacional de Desarrollo.</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#CollapseFour"
+                aria-expanded="false" aria-controls="CollapseFour">
+                Clientes
+              </button>
+            </h5>
+          </div>
+          <div id="CollapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
               <ul class="list-group">
-                <li class="list-group-item">Sociedad en General</li>
-                <li class="list-group-item">Parque Agrotecnologico Xonotli</li>
-                <li class="list-group-item">Instituto de Ecologia del Estado de Guanajuato</li>
-                <li class="list-group-item">Congreso del Estado de Guanajuato</li>
+                <li class="list-group-item"> <b>Pollo Feliz Dolores Hidalgo</b></li>
+                <li class="list-group-item"> <b> Presidencia Municipal San Jose Iturbide </b></li>
+                <li class="list-group-item"> <b>Instituto de Ecologia del Estado de Guanajuato</b> </li>
+                <li class="list-group-item"> <b>Congreso del Estado de Guanajuato </b> </li>
               </ul>
             </div>
           </div>
@@ -161,9 +166,9 @@
           </div>
           <div class="col-md-6">
             <ul class="list-group list-group-flush" id="contactoinfo">
-              <li class="list-group-item"> <i class="fas fa-user"></i>Biólogo Marcos Carrillo Sánchez</li>
-              <li class="list-group-item"><i class="fas fa-envelope"></i>marcos.carrillos@utng.edu.mx</li>
-              <li class="list-group-item"><i class="fas fa-phone-square"></i>Tel:18 2 55 00 ext. 1361</li>
+              <li class="list-group-item"> <i class="fas fa-user"></i> Sergio Humberto Vázquez Barrientos </li>
+              <li class="list-group-item"><i class="fas fa-envelope"></i> sergiovazquez@utng.edu.mx</li>
+              <li class="list-group-item"><i class="fas fa-phone-square"></i> Tel:18 2 55 00 ext. 1391</li>
             </ul>
           </div>
          

@@ -18,6 +18,7 @@
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="../../css/styles.css" rel="stylesheet" />
   <link href="../../css/servicios.css" rel="stylesheet" />
+  <link href="../../css/servicios/seguimiento.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -32,7 +33,7 @@
       <div class="card" id="tituloServicio">
         <div class="card-body">
           <h4>
-            Agricultura Protegida
+            Servicios Empresariales
           </h4>
         </div>
       </div>
@@ -46,14 +47,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/cactus1.jpg" alt="First slide" height="350">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/hidro.jpg" alt="Second slide" height="350">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/huerto-urbano.jpg" alt="Third slide"
-              height="350">
+            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/serviciosempresa/EmpresasBanner.jpg" alt="First slide" height="350">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -81,26 +75,7 @@
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
               <p class="text-justify">
-                El crecimiento demográfico de nuestra entidad, nos plantea el reto de ser más eficientes en el manejo de
-                los recursos naturales, ser competitivos y eficientes para producir más y mejores alimentos, a través de
-                sistemas de producción sustentados en tecnologías de vanguardia que permitan la coexistencia, el
-                desarrollo y mejoramiento de las condiciones socioeconómicas de las comunidades de influencia de la
-                UTNG. Para enfrentar esos retos es necesaria la actualización y transferencia de la investigación
-                generada en Instituciones de Educación e Investigación y sus resultados sean transferidos y adoptados
-                más rápidamente por los productores comunitarios.
-                <br>
-                <br>
-                La agricultura protegida es aquella que se realiza bajo métodos de producción que ayudan a ejerce
-                determinado grado de control sobre los diversos factores del medio ambiente. Permitiendo con ello
-                minimizar las restricciones que las malas condiciones climáticas ocasionan en los cultivos y optimizar
-                su rendimiento.
-                <br>
-                <br>
-                En ese mismo sentido la UTNG como una institución de educación e investigación, cuenta con una colección
-                de cactáceas del norte y noreste de Guanajuato, lo cual nos permite conservar, reproducir, educar y
-                difundir la importancia de esta notable familia de plantas.
-              </p>
-            </div>
+                Son actividades de consultoría, asistencia técnica, transferencia de tecnología, entre otras, para contribuir a resolver alguna problemática detectada.
           </div>
         </div>
         <div class="card">
@@ -108,40 +83,74 @@
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
                 aria-expanded="false" aria-controls="collapseTwo">
-                Servicios
+                Área Económico Administrativa
               </button>
             </h5>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-              <ul class="list-group">
-                <li class="list-group-item">Reproducción y manejo de cactáceas</li>
-                <li class="list-group-item">Diseño y establecimiento de jardines de bajo consumo de agua(Jardine
-                  Xéricos)</li>
-                <li class="list-group-item">Transferencia de la tecnología de jitomate via agricultua protegida</li>
-                <li class="list-group-item">Capacitación en el establecimiento de huertos urbanos</li>
-                <li class="list-group-item">Capacitación en la producción de lombricomposta</li>
-              </ul>
-            </div>
-          </div>
+            <ul class="list-group">
+				<li class="list-group-item"> 1.- Elaboración de manuales de organización, políticas y procedimientos.</li>
+				<li class="list-group-item"> 2.- Detección de necesidades de capacitación.</li>
+				<li class="list-group-item"> 3.- Programas de Inducción.</li>
+                <li class="list-group-item"> 4.- Reclutamiento y selección de personal.</li>
+                <li class="list-group-item"> 5.- Análisis y Valuación de puestos.</li>
+                <li class="list-group-item"> 6.- Clima laboral.</li>
+                <li class="list-group-item"> 7.- Planeación estratégica.</li>
+                <li class="list-group-item"> 8.- Plan de Negocios.</li>
+                <li class="list-group-item"> 9.- Investigación de mercados.</li>
+                <li class="list-group-item"> 10.- Comercio Exterior.</li>
+                <li class="list-group-item"> 11.- Estrategias de mercadotecnia Integral.</li>
+                <li class="list-group-item"> 12.- Asesoría contable, fiscal, financiera, y de costos, así como proyectos de inversión.</li>
+                <li class="list-group-item"> 13.- uditoría Financiera y Contable.</li>
+			</ul>
         </div>
+      </div>
+    </div>
         <div class="card">
           <div class="card-header" id="headingThree">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
                 aria-expanded="false" aria-controls="collapseThree">
-                Clientes
+                Área Tecnologías de la Información y Comunicación
               </button>
             </h5>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
               <ul class="list-group">
-                <li class="list-group-item">Sociedad en General</li>
-                <li class="list-group-item">Parque Agrotecnologico Xonotli</li>
-                <li class="list-group-item">Instituto de Ecologia del Estado de Guanajuato</li>
-                <li class="list-group-item">Congreso del Estado de Guanajuato</li>
+                <li class="list-group-item">1.- Consultoría en modelado de procesos de negocios.</li>
+                <li class="list-group-item">2.- Consultoría y asesoría de desarrollo de software bajo la metodología CMMI.</li>
+                <li class="list-group-item">3.- Desarrollo de aplicaciones multimedia y sitios web.</li>
+                <li class="list-group-item">4.- Servicios de consultoría, diseño y soporte a Infraestructura de Red.</li>
+                <li class="list-group-item">5.- Seguridad y optimización de redes.</li>
+                <li class="list-group-item">6.- Consultoría en Optimización de Servicios de Red.</li>
               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                aria-expanded="false" aria-controls="collapseThree">
+                Área Industrial Eléctrica y Electrónica
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+             <ul class="list-group">
+                <li class="list-group-item">1.- Electricidad Básica.</li>
+                <li class="list-group-item">2.- Implementación de sistemas de calidad.</li>
+                <li class="list-group-item">3.- Asesoría para la nueva energía.</li>
+                <li class="list-group-item">4.- Electrónica Digital y Analógica.</li>
+                <li class="list-group-item">5.- Instrumentación Industrial.</li>
+                <li class="list-group-item">6.- Máquinas Eléctricas (motores y transformadores).</li>
+                <li class="list-group-item">7.- Materiales mecánicos de sólidos y de medios continuos.</li>
+                <li class="list-group-item">8.- Audio y Seguridad automotriz.</li>
+                <li class="list-group-item">9.- Microcontroladores.</li>
+	    	</ul>
             </div>
           </div>
         </div>
@@ -161,9 +170,9 @@
           </div>
           <div class="col-md-6">
             <ul class="list-group list-group-flush" id="contactoinfo">
-              <li class="list-group-item"> <i class="fas fa-user"></i>Biólogo Marcos Carrillo Sánchez</li>
-              <li class="list-group-item"><i class="fas fa-envelope"></i>marcos.carrillos@utng.edu.mx</li>
-              <li class="list-group-item"><i class="fas fa-phone-square"></i>Tel:18 2 55 00 ext. 1361</li>
+              <li class="list-group-item"> <i class="fas fa-user"></i>Joel Herrera Cabral Sánchez </li>
+              <li class="list-group-item"><i class="fas fa-envelope"></i>joel.herrera@utng.edu.mx</li>
+              <li class="list-group-item"><i class="fas fa-phone-square"></i>Tel:18 2 55 00 ext. 1358</li>
             </ul>
           </div>
          

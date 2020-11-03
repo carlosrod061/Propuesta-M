@@ -50,11 +50,11 @@
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				  <a class="dropdown-item" href="../servicios/agriculturaprotegida.php">Agricultura Protegida</a>
-				  <a class="dropdown-item" href="#">Seguimiento de egresados y Bolsa de Trabajo</a>
-				  <a class="dropdown-item" href="#">Capacitación y adiestramento</a>
-				  <a class="dropdown-item" href="#">Desarrollo de Software</a>
-				  <a class="dropdown-item" href="#">Incubación de empresas</a>
-				  <a class="dropdown-item" href="#">Servicios empresariales</a>
+				  <a class="dropdown-item" href="../servicios/seguimiento.php">Seguimiento de egresados y Bolsa de Trabajo</a>
+				  <a class="dropdown-item" href="../servicios/capacitacion_adiestramiento.php">Capacitación y adiestramento</a>
+				  <a class="dropdown-item" href="../servicios/desarrollodesoftware.php">Desarrollo de Software</a>
+				  <a class="dropdown-item" href="../servicios/incubacionempresas.php">Incubación de empresas</a>
+				  <a class="dropdown-item" href="../servicios/serviciosempresariales.php#">Servicios empresariales</a>
 				  <a class="dropdown-item" href="#">Centro de evaluación</a>
 				</div>
 			  </li>
