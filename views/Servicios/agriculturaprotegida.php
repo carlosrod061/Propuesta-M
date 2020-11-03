@@ -161,7 +161,7 @@
           </div>
           <div class="col-md-6">
             <ul class="list-group list-group-flush" id="contactoinfo">
-              <li class="list-group-item"> <i class="fas fa-user"></i>Biólogo Marcos Carrillo Sánchez RAMA SERVICIOS </li>
+              <li class="list-group-item"> <i class="fas fa-user"></i>Biólogo Marcos Carrillo Sánchez</li>
               <li class="list-group-item"><i class="fas fa-envelope"></i>marcos.carrillos@utng.edu.mx</li>
               <li class="list-group-item"><i class="fas fa-phone-square"></i>Tel:18 2 55 00 ext. 1361</li>
             </ul>
