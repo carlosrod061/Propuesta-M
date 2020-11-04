@@ -54,8 +54,8 @@
 				  <a class="dropdown-item" href="../servicios/capacitacion_adiestramiento.php">Capacitación y adiestramento</a>
 				  <a class="dropdown-item" href="../servicios/desarrollodesoftware.php">Desarrollo de Software</a>
 				  <a class="dropdown-item" href="../servicios/incubacionempresas.php">Incubación de empresas</a>
-				  <a class="dropdown-item" href="../servicios/serviciosempresariales.php#">Servicios empresariales</a>
-				  <a class="dropdown-item" href="#">Centro de evaluación</a>
+				  <a class="dropdown-item" href="../servicios/serviciosempresariales.php">Servicios empresariales</a>
+				  <a class="dropdown-item" href="../servicios/centroevaluacion.php#">Centro de evaluación</a>
 				</div>
 			  </li>
 			</ul>
