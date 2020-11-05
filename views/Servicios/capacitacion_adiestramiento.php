@@ -49,6 +49,18 @@
           <div class="carousel-item active">
             <img class="d-block w-100" src="../../assets/img/GaleriaServicios/educacioncontinua/deco2.jpg" alt="First slide" height="350">
           </div>
+  
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/educacioncontinua/capacitacion1.jpg" alt="Second slide" height="350">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/educacioncontinua/capacitacion2.jpg" alt="Third slide" height="350">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/educacioncontinua/capacitacion3.jpg" alt="Four slide" height="350">
+          </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -79,6 +91,9 @@
 El Departamento de Educación Continua ofrece servicios de actualización, capacitación, asesorías y servicios especializados a egresados, empresas, organismos y sociedad en general para su desarrollo profesional y el incremento de su competitividad.
 
               </p>
+              <div class="row mx-auto" style="margin-left:30rem">
+                <img src="../../assets/img/GaleriaServicios/educacioncontinua/folder.png" width=100 height=100 alt="">
+              </div>
             </div>
           </div>
         </div>

@@ -47,7 +47,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/incubaciondeempresas/IncubacionBanner.jpg" alt="First slide" height="350">
+            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/incubaciondeempresas/incubadoras.jpg" alt="First slide" height="350">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
