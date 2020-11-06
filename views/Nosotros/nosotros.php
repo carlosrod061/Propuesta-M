@@ -206,7 +206,7 @@
                         <p class="card-text">Necesitas contactar al responsable de algun servicio dentro de la UTNG,
                             aqui podras encontrar su inforacion de contacto</p>
                         <center>
-                            <a href="#" class="btn btn-primary">Contactanos</a>
+                            <a href="../Nosotros/directorio.php" class="btn btn-primary">Contactanos</a>
                         </center>
                     </div>
                 </div>
@@ -251,7 +251,7 @@
                         <p class="card-text">La UTNG cuanta con una calidad educativa de gran nivel, conoce aqui el
                             porque.</p>
                         <center>
-                            <a href="#" class="btn btn-primary">Más información</a>
+                            <a href="../Nosotros/calidad_educativa.php" class="btn btn-primary">Más información</a>
                         </center>
                     </div>
                 </div>

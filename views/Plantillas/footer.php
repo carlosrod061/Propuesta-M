@@ -24,7 +24,7 @@
           <p>Campus Victoria Carretera Victoria-San Luis de la Paz Km.3. Col. Del Paso Hondo</p>
         </div>
         <div class="col-md-1"><a href=""><img src="../../assets/img/siga-color.png" width="60" height="60"></a></div>
-        <div class="col-md-1"><a href=""><img src="../../assets/img/plataforma-color.png" width="60" height="60"></a></div>
+        <div class="col-md-1"><a href="https://elearning.utng.edu.mx/"><img src="../../assets/img/plataforma-color.png" width="60" height="60"></a></div>
         <div class="col-md-1"><a href=""><img src="../../assets/img/premioaltares.png" width="60" height="60"></a></div>
 
 
