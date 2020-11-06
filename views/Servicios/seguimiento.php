@@ -74,22 +74,33 @@
 
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-              <p class="text-justify">
-               <b>En el área de Seguimiento de Egresados y bolsa de trabajo damos seguimiento a los egresados para obtener información sobre:</b> 
-                    <br>
-
-                <ol>
-                <li>  La satisfacción de los servicios que te brindamos.</li>
-                <li>    El nivel de exigencia de los empleadores en el desempeño profesional de los egresados.</li>
-                <li>
-                Realizar detecciones de necesidades de capacitación en tu ámbito profesional y ofrecerte cursos y talleres.</li>
-                <li>  Conocer tu trayectoria laboral.</li>
-              
             
-              
-                </ol>
-              
-                A través de los siguientes estudios:
+            <div class="row">
+              <div class="col-md-6">
+                <p class="text-justify">
+                    <b>En el área de Seguimiento de Egresados y bolsa de trabajo damos seguimiento a los egresados para obtener información sobre:</b> 
+                          <br>
+
+                      <ol>
+                      <li>  La satisfacción de los servicios que te brindamos.</li>
+                      <li>    El nivel de exigencia de los empleadores en el desempeño profesional de los egresados.</li>
+                      <li>
+                      Realizar detecciones de necesidades de capacitación en tu ámbito profesional y ofrecerte cursos y talleres.</li>
+                      <li>  Conocer tu trayectoria laboral.</li>
+                    
+                  
+                    
+                      </ol>
+                    
+                      A través de los siguientes estudios:
+                    </p>
+              </div>
+              <div class="col-md-6 mx-auto ml-8">
+              <img src="../../assets/img/GaleriaServicios/seguimiento/alumna1.jpg" width=400 height=230 alt="">
+              </div>
+            
+            </div>
+            
 <br>
 <br>
                 <div class="form-group row mt-2 mb-2">
@@ -137,14 +148,15 @@
                         </p>
                     </div>
 
-                    <br> <br> <br> <br>
+                    <br> <br> <br> <br> <br>
+                    <br>
                     <p>
-                        &nbsp;&nbsp;Esto nos permitirá generar propuestas de mejora en nuestros <b>planes
+                        &nbsp;&nbsp;&nbsp;&nbsp;Esto nos permitirá generar propuestas de mejora en nuestros <b>planes
                             y programas de estudio.</b>
                     </p>
                 </div>
 
-              </p>
+           
             </div>
           </div>
         </div>
