@@ -35,7 +35,7 @@
 				Estudiantes
 			  </a>
 			  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				<a class="dropdown-item" href="../Estudiantes/estudiantes.php">Becas</a>							
+				<a class="dropdown-item" href="../Estudiantes/becas.php">Becas</a>							
 								<a class="dropdown-item" href="estudiantes.html">Titulación</a>	
 								<a class="dropdown-item" href="estudiantes.html">Calendario Escolar</a>	
 								<a class="dropdown-item" href="estudiantes.html">Estadias Profecionales</a>	
@@ -60,6 +60,6 @@
 			  </li>
 			</ul>
 		  </div>
-		  <a href="" class="ml-5"><img src="../../assets/img/wheelchair.png" width="25" height="25"></a>
+		  <a href="" class="ml-5"><img src="../../assets/img/wheelchair.png" width="25" height="25"></a>		  
 		</div>
 	  </nav>
