@@ -10259,3 +10259,27 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+/*Estilo zoom para las imagenes en la pagina inicio.php*/
+.container figure {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+}
+.container figure img{
+  width: 100%;
+  height: 110%;
+  transition: all 500ms ease-out;
+}
+.container figure img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/*Tamaño del modal para la pagina de inicio.php*/
+.modal{
+  width: 100%;
+  height: 73%;
+}
