@@ -38,7 +38,7 @@
 				<a class="dropdown-item" href="../Estudiantes/becas.php">Becas</a>							
 								<a class="dropdown-item" href="estudiantes.html">Titulación</a>	
 								<a class="dropdown-item" href="estudiantes.html">Calendario Escolar</a>	
-								<a class="dropdown-item" href="estudiantes.html">Estadias Profecionales</a>	
+								<a class="dropdown-item" href="../Estudiantes/estadiasprofesionales.php">Estadias Profecionales</a>	
 								<a class="dropdown-item" href="estudiantes.html">Movilidad Estudantil</a>	
 								<a class="dropdown-item" href="estudiantes.html">CNBES</a>						
 			  </div>
