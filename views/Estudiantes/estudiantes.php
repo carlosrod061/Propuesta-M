@@ -50,8 +50,7 @@
             <li> Tel:18 2 55 00 ext. 1254</li>
           </ul>
           <p>Atención de lunes a viernes de 8:00 a 16:00 hrs.</p>
-          <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal"
-            data-target="#modalBeca">Ver Info</button>
+          <button type="button" class="btn btn-lg btn-block btn-primary" href="">Ver Info</button>
         </div>
       </div>
 

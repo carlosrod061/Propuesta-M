@@ -1,7 +1,7 @@
 
 	<nav class="navbar navbar-expand-lg text-uppercase fixed-top" style="background-color: #2c4cbc;" id="mainNav">
 		<div id="contenidoBarra" class="container">
-		  <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../../assets/img/logoUniversidad.png" alt=""></a>
+		  <a class="navbar-brand js-scroll-trigger" href="../Inicio/inicio.php"><img src="../../assets/img/logoUniversidad.png" alt=""></a>
 		  <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
 			type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
 			aria-expanded="false" aria-label="Toggle navigation">
@@ -20,10 +20,10 @@
 			  </a>
 			  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				<a class="dropdown-item" href="../Nosotros/nosotros.php">Nosotros</a>
-				<a class="dropdown-item" href="#">Directorio</a>
+				<a class="dropdown-item" href="../Nosotros/directorio.php">Directorio</a>
 				<a class="dropdown-item" href="#">Semblanza Cronologica</a>
 				<a class="dropdown-item" href="#">Normateca</a>
-				<a class="dropdown-item" href="#">Calidad Educativa</a>
+				<a class="dropdown-item" href="../Nosotros/calidad_educativa.php">Calidad Educativa</a>
 				<a class="dropdown-item" href="#">Política Ambiental</a>
 				<a class="dropdown-item" href="#">Quejas y Sugerencias</a>
 			  </div>
@@ -35,7 +35,7 @@
 				Estudiantes
 			  </a>
 			  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				<a class="dropdown-item" href="../Estudiantes/estudiantes.php">Becas</a>							
+				<a class="dropdown-item" href="../Estudiantes/becas.php">Becas</a>							
 								<a class="dropdown-item" href="estudiantes.html">Titulación</a>	
 								<a class="dropdown-item" href="estudiantes.html">Calendario Escolar</a>	
 								<a class="dropdown-item" href="estudiantes.html">Estadias Profecionales</a>	
@@ -50,16 +50,16 @@
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				  <a class="dropdown-item" href="../servicios/agriculturaprotegida.php">Agricultura Protegida</a>
-				  <a class="dropdown-item" href="../servicios/seguimiento.php">Seguimiento de egresados y Bolsa de Trabajo</a>
+				  <a class="dropdown-item" href="../servicios/seguimiento.php">Seguimiento de egresados</a>
 				  <a class="dropdown-item" href="../servicios/capacitacion_adiestramiento.php">Capacitación y adiestramento</a>
 				  <a class="dropdown-item" href="../servicios/desarrollodesoftware.php">Desarrollo de Software</a>
 				  <a class="dropdown-item" href="../servicios/incubacionempresas.php">Incubación de empresas</a>
-				  <a class="dropdown-item" href="../servicios/serviciosempresariales.php#">Servicios empresariales</a>
-				  <a class="dropdown-item" href="#">Centro de evaluación</a>
+				  <a class="dropdown-item" href="../servicios/serviciosempresariales.php">Servicios empresariales</a>
+				  <a class="dropdown-item" href="../servicios/centroevaluacion.php#">Centro de evaluación</a>
 				</div>
 			  </li>
 			</ul>
 		  </div>
-		  <a href="" class="ml-5"><img src="../../assets/img/wheelchair.png" width="25" height="25"></a>
+		  <a href="" class="ml-5"><img src="../../assets/img/wheelchair.png" width="25" height="25"></a>		  
 		</div>
 	  </nav>
