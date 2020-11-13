@@ -36,7 +36,7 @@
 			  </a>
 			  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				<a class="dropdown-item" href="../Estudiantes/becas.php">Becas</a>							
-								<a class="dropdown-item" href="estudiantes.html">Titulación</a>	
+								<a class="dropdown-item" href="../Estudiantes/titulacion.php">Titulación</a>	
 								<a class="dropdown-item" href="estudiantes.html">Calendario Escolar</a>	
 								<a class="dropdown-item" href="estudiantes.html">Estadias Profecionales</a>	
 								<a class="dropdown-item" href="estudiantes.html">Movilidad Estudantil</a>	
