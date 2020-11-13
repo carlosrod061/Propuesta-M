@@ -23,7 +23,7 @@
 				<a class="dropdown-item" href="../Nosotros/directorio.php">Directorio</a>
 				<a class="dropdown-item" href="#">Semblanza Cronologica</a>
 				<a class="dropdown-item" href="#">Normateca</a>
-				<a class="dropdown-item" href="../Nosotros/calidad_educativa.php">Calidad Educativa</a>
+				<a class="dropdown-item" href="#">Calidad Educativa</a>
 				<a class="dropdown-item" href="#">Política Ambiental</a>
 				<a class="dropdown-item" href="#">Quejas y Sugerencias</a>
 			  </div>
@@ -37,6 +37,7 @@
 			  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				<a class="dropdown-item" href="../Estudiantes/becas.php">Becas</a>							
 <<<<<<< HEAD
+<<<<<<< HEAD
 								<a class="dropdown-item" href="estudiantes.html">Titulación</a>	
 								<a class="dropdown-item" href="estudiantes.html">Calendario Escolar</a>	
 								<a class="dropdown-item" href="../Estudiantes/estadiasprofesionales.php">Estadias Profecionales</a>	
@@ -48,6 +49,14 @@
 								<a class="dropdown-item" href="">Estadias Profecionales</a>	
 								<a class="dropdown-item" href="">Movilidad Estudantil</a>	
 								<a class="dropdown-item" href="">CNBES</a>						
+>>>>>>> upstream/master
+=======
+
+								<a class="dropdown-item" href="../Estudiantes/titulacion.php">Titulación</a>	
+								<a class="dropdown-item" href="estudiantes.html">Calendario Escolar</a>	
+								<a class="dropdown-item" href="../Estudiantes/estadiasprofesionales.php">Estadias Profecionales</a>	
+								<a class="dropdown-item" href="estudiantes.html">Movilidad Estudantil</a>	
+								<a class="dropdown-item" href="estudiantes.html">CNBES</a>
 >>>>>>> upstream/master
 			  </div>
 			</li>
