@@ -183,6 +183,9 @@
                 <li class="list-group-item">Apoyo para la postulación de vacantes registradas en BT.</li>
 
               </ol>
+              <div class="row">
+                 <a href="./solicitud_bolsa_trabajo.php" class="mx-auto mt-4"> <button type="button" class="btn btn-primary" style="background-color:#2c4cbc">Solicitar servicio</button> </a>  
+              </div>
             </div>
           </div>
         </div>
