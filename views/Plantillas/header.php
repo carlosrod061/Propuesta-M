@@ -23,7 +23,7 @@
 				<a class="dropdown-item" href="../Nosotros/directorio.php">Directorio</a>
 				<a class="dropdown-item" href="#">Semblanza Cronologica</a>
 				<a class="dropdown-item" href="#">Normateca</a>
-				<a class="dropdown-item" href="../Nosotros/calidad_educativa.php">Calidad Educativa</a>
+				<a class="dropdown-item" href="#">Calidad Educativa</a>
 				<a class="dropdown-item" href="#">Política Ambiental</a>
 				<a class="dropdown-item" href="#">Quejas y Sugerencias</a>
 			  </div>
