@@ -62,7 +62,7 @@
 <br>
     <div class="row" >
         <center>
-        <ul class="nav justify-content-center">
+        <ul class="nav justify-content-center ml-4">
             <li class="nav-item">
                 <a class="btn btn-outline-primary" data-target="#TSUTab" type="button"
                 data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample">
@@ -79,12 +79,8 @@
         </center>
     </div>
 </div>
-
-
-  </header>
   <div class="container">
         <div class="row">
-
             <div class="collapse col-md-12" id="TSUTab">
                 <div class="table-responsive">
                     <table class="table table-striped table-hover">
@@ -97,7 +93,7 @@
                     <br>
                 </div>
             </div>
-
+          
             <div class="collapse col-md-12" id="TSUTab">
                 <h5>Perfíles Profesionales</h5>
                 <div class="table-responsive">
@@ -160,21 +156,23 @@
                     <br>
                 </div>
             </div>
+  </div> 
+  <br>
 <div id="accordion">
-<div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                aria-expanded="false" aria-controls="collapseTwo">
-                Información para alumnos:
-              </button>
-            </h5>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
-            <p class="text-justify">
-            Durante la estadía, tienes la oportunidad de estar insertado en el campo laboral real, 
-            lo que te permite fortalecer tu formación académica y adquieres experiencia profesional.
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Información para alumnos:
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <p class="text-justify">
+          Durante la estadía, tienes la oportunidad de estar insertado en el campo laboral real, 
+          lo que te permite fortalecer tu formación académica y adquieres experiencia profesional.
 <br>
             Para poder participar en el periodo de estadías debes:
             <br>
@@ -218,9 +216,10 @@
             De la misma manera el o los alumnos cuenta con un SEGURO SOCIAL FACULTATIVO con vigencia hasta el término de su periodo de estadía para atender cualquier urgencia médica que se presente por motivos de las actividades propias del proyecto, además cuenta con un asesor académico que lo estará guiando durante el desarrollo de su estadía, y que junto con el asesor industrial designado por usted dará seguimiento a los intereses de la empresa.
                     </p>
         </div>
-      </div>
     </div>
 </div>
+
+</header>
 
   <?php include '../Plantillas/footer.php';?>
 
