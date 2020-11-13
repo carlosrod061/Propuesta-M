@@ -36,11 +36,19 @@
 			  </a>
 			  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 				<a class="dropdown-item" href="../Estudiantes/becas.php">Becas</a>							
+<<<<<<< HEAD
 								<a class="dropdown-item" href="estudiantes.html">Titulación</a>	
 								<a class="dropdown-item" href="estudiantes.html">Calendario Escolar</a>	
 								<a class="dropdown-item" href="../Estudiantes/estadiasprofesionales.php">Estadias Profecionales</a>	
 								<a class="dropdown-item" href="estudiantes.html">Movilidad Estudantil</a>	
 								<a class="dropdown-item" href="estudiantes.html">CNBES</a>						
+=======
+								<a class="dropdown-item" href="">Titulación</a>	
+								<a class="dropdown-item" href="">Calendario Escolar</a>	
+								<a class="dropdown-item" href="">Estadias Profecionales</a>	
+								<a class="dropdown-item" href="">Movilidad Estudantil</a>	
+								<a class="dropdown-item" href="">CNBES</a>						
+>>>>>>> upstream/master
 			  </div>
 			</li>
 			  <li class="mx-0 mx-lg-1 nav-item dropdown">
