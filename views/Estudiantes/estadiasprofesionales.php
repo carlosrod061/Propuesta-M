@@ -35,12 +35,32 @@
     <div class="card" id="tituloServicio">
         <div class="card-body">
           <h4>
-            Estadías Profesionales
+            Practicas y Estadias
           </h4>
         </div>
       </div>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                Estadías Profesionales
+              </button>
+            </h5>
+          </div>
 
-    <div class="row">
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <p class="text-justify">
+                Son actividades de consultoría, asistencia técnica, transferencia de tecnología, entre otras, para contribuir a resolver alguna problemática detectada.
+          </div>
+        </div>
+    </div>
+<br>
+<h1 style="color: black;">Perfíles Profesionales</h1>
+<br>
+    <div class="row" >
         <center>
         <ul class="nav justify-content-center">
             <li class="nav-item">
@@ -140,6 +160,67 @@
                     <br>
                 </div>
             </div>
+<div id="accordion">
+<div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                Información para alumnos:
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+            <p class="text-justify">
+            Durante la estadía, tienes la oportunidad de estar insertado en el campo laboral real, 
+            lo que te permite fortalecer tu formación académica y adquieres experiencia profesional.
+<br>
+            Para poder participar en el periodo de estadías debes:
+            <br>
+                Participar en la plática de concientización de la estadía
+                <br>
+                Contestar la encuesta de expectativas,
+                <br>
+                Ser alumno regular, es decir, no tener adeudos de ninguna índole en la institución.
+                <br>
+                Consultar la cartera de empresas que se tiene por parte de Vinculación directamente con tu coordinador de carrera.
+                <br>
+                En caso de traer una empresa por tu propia cuenta debe de estar validad por tu coordinador y posterior traer los siguientes datos al área de Prácticas y Estadías ubicado en el edifico C planta baja:
+                    <br>
+                    1. Nombre de la empresa
+                    <br>
+                    2. Dirección y ciudad de la empresa
+                    <br>
+                    3. Nombre del contacto (Que tenga la facultad de vincular la empresa)
+                    <br>
+                    4. Cargo de contacto
+                    <br>
+                    5. Teléfono y e-mail del contacto
+                    </p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                Información para la empresa:
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+            <p class="text-justify">
+            Las estadías se pueden realizar en cualquier empresa, Institución Educativa, o Dependencias Gubernamentales que permita que nuestros alumnos realicen un proyecto y/o actividad pertinente a su perfil de egreso. En caso de estar interesados se les solicita atentamente contarse con el Departamento de Prácticas y Estadías, mismo que funge como enlace entre las Organizaciones y la Universidad, para gestionar los espacios y/o proyectos necesarios a través del formato de Gestión de espacios de Estadías. Dicha solicitud se recibirá en el transcurso del cuatrimestre anterior al inicio de estadías. Si el proyecto es viable, a través de las diferentes áreas académicas, se asignará el número de alumnos necesarios para llevar a cabo esta actividad práctica.
+<br>
+            De la misma manera el o los alumnos cuenta con un SEGURO SOCIAL FACULTATIVO con vigencia hasta el término de su periodo de estadía para atender cualquier urgencia médica que se presente por motivos de las actividades propias del proyecto, además cuenta con un asesor académico que lo estará guiando durante el desarrollo de su estadía, y que junto con el asesor industrial designado por usted dará seguimiento a los intereses de la empresa.
+                    </p>
+        </div>
+      </div>
+    </div>
+</div>
 
   <?php include '../Plantillas/footer.php';?>
 
