@@ -69,7 +69,7 @@
                 TSU
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ml-1">
                 <a class="btn btn-outline-primary" data-target="#INGTab" type="button"
                 data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample">
                 Ingeniería
