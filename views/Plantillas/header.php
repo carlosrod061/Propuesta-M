@@ -53,10 +53,17 @@
 =======
 
 								<a class="dropdown-item" href="../Estudiantes/titulacion.php">Titulación</a>	
+<<<<<<< HEAD
 								<a class="dropdown-item" href="estudiantes.html">Calendario Escolar</a>	
 								<a class="dropdown-item" href="../Estudiantes/estadiasprofesionales.php">Estadias Profecionales</a>	
 								<a class="dropdown-item" href="estudiantes.html">Movilidad Estudantil</a>	
 								<a class="dropdown-item" href="estudiantes.html">CNBES</a>
+>>>>>>> upstream/master
+=======
+								<a class="dropdown-item" href="#">Calendario Escolar</a>	
+								<a class="dropdown-item" href="../Estudiantes/estadiasprofesionales.php">Estadias Profesionales</a>	
+								<a class="dropdown-item" href="#">Movilidad Estudantil</a>	
+								<a class="dropdown-item" href="#">CNBES</a>
 >>>>>>> upstream/master
 			  </div>
 			</li>
@@ -66,13 +73,13 @@
 				  Servicios
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				  <a class="dropdown-item" href="../servicios/agriculturaprotegida.php">Agricultura Protegida</a>
-				  <a class="dropdown-item" href="../servicios/seguimiento.php">Seguimiento de egresados</a>
-				  <a class="dropdown-item" href="../servicios/capacitacion_adiestramiento.php">Capacitación y adiestramento</a>
-				  <a class="dropdown-item" href="../servicios/desarrollodesoftware.php">Desarrollo de Software</a>
-				  <a class="dropdown-item" href="../servicios/incubacionempresas.php">Incubación de empresas</a>
-				  <a class="dropdown-item" href="../servicios/serviciosempresariales.php">Servicios empresariales</a>
-				  <a class="dropdown-item" href="../servicios/centroevaluacion.php#">Centro de evaluación</a>
+				  <a class="dropdown-item" href="../Servicios/agriculturaprotegida.php">Agricultura Protegida</a>
+				  <a class="dropdown-item" href="../Servicios/seguimiento.php">Seguimiento de egresados</a>
+				  <a class="dropdown-item" href="../Servicios/capacitacion_adiestramiento.php">Capacitación y adiestramento</a>
+				  <a class="dropdown-item" href="../Servicios/desarrollodesoftware.php">Desarrollo de Software</a>
+				  <a class="dropdown-item" href="../Servicios/incubacionempresas.php">Incubación de empresas</a>
+				  <a class="dropdown-item" href="../Servicios/serviciosempresariales.php">Servicios empresariales</a>
+				  <a class="dropdown-item" href="../Servicios/centroevaluacion.php#">Centro de evaluación</a>
 				</div>
 			  </li>
 			</ul>
