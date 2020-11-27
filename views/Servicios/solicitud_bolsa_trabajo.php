@@ -63,19 +63,24 @@
             </div>
         </div>
         <div class="card-body" style="background-color:#04AC84">
-                <form id="formValidar" href="#">
+                <form id="formValidar" method="POST" href="#">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Nombre del alumno:</label>
+                        <input type="text" class="form-control" id="email" aria-describedby="emailHelp" name="nomAlumno" placeholder="Ingrese su nombre" required>
+                      
+                    </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Correo Electronico:</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ingrese correo electronico valido" required>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="correo" placeholder="Ingrese correo electronico valido" required>
                       
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Numero de control</label>
-                        <input type="number" class="form-control" id="noControl" placeholder="No Control" required>
+                        <input type="number" class="form-control" id="noControl" name="noControl" placeholder="No Control" required>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Egresado de la carrera:</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="exampleFormControlSelect1" name="nomCarrera">
                             <option>Administración Área Capital Humano</option>
                             <option>Desarrollo de Negocios Área Mercadotécnia</option>
                             <option>Ingeniería en Redes Inteligentes y Ciberseguridad</option>
@@ -94,7 +99,7 @@
                         </select>
                     </div>
                     <label for="exampleInput2">Tipo de servicio</label>
-                    <select class="form-control" id="tipoServicio" onchange="getval(this);">
+                    <select class="form-control" id="tipoServicio" onchange="getval(this);" name="nomServicio">
                         <option>Talleres para buscadores activos de empleo</option>
                         <option>Revisión de CV Tip’s para búsqueda de empleo</option>
                         <option>Bolsas de trabajo en línea</option>
@@ -106,11 +111,17 @@
                         <textarea class="form-control" rows="3" placeholder="Añadir comentarios" ></textarea>
                     </div>
                     
+
                     <div class="row" id="CargaArchivo"></div>
+                    
+                    <div class="center">
+                      <div class="row mx-auto">
+                      <input type="submit" name="enviar">
+                      </div>
+                    </div>
                 </form>
-                <div class="row">
-                      <button type="submit" class="btn btn-primary mt-3 mx-auto" style="background-color:#2c4cbc" onclick="validarSolicitud()">Enviar</button>
-               </div>
+                
+               <?php include("correo.php")?>
   
         </div>
     </div>
