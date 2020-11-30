@@ -63,18 +63,23 @@
         </div>
         <div class="card-body" style="background-color:#04AC84">
           <form id="formValidar" href="#" method="POST">
-            <div class="form-group">
-              <label for="exampleInputEmail1">Correo Electronico:</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Ingrese correo electronico valido" required>
+          <div class="form-group">
+              <label for="exampleInputEmail1">Nombre del alumno:</label>
+              <input type="text" class="form-control" id="email" aria-describedby="emailHelp" name="nomAlumno" placeholder="Ingrese su nombre" required>
 
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Numero de Telefono o Celular</label>
-              <input type="number" class="form-control" id="noControl" placeholder="No Control" required>
+              <label for="exampleInputEmail1">Correo Electronico:</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="correo" placeholder="Ingrese correo electronico valido" required>
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Numero de control</label>
+              <input type="number" class="form-control" id="noControl" name="noControl" placeholder="No Control" required>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Egresado de la carrera:</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <select class="form-control" id="exampleFormControlSelect1" name="nomCarrera">
                 <option>Administración Área Capital Humano</option>
                 <option>Desarrollo de Negocios Área Mercadotécnia</option>
                 <option>Ingeniería en Redes Inteligentes y Ciberseguridad</option>
@@ -93,7 +98,7 @@
               </select>
             </div>
             <label for="exampleInput2">Tipo de servicio</label>
-            <select class="form-control" id="tipoServicio" onchange="getval(this);">
+            <select class="form-control" id="tipoServicio" onchange="getval(this);" name="nomServicio">
               <option>Conferencias.</option>
               <option>Talleres.</option>
               <option>Cursos.</option>
@@ -126,7 +131,7 @@
             </div>
           </form>
 
-          <?php include("correo.php") ?>
+          <?php include("correocapacitacion.php") ?>
 
         </div>
       </div>

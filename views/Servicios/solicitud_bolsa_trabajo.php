@@ -62,7 +62,7 @@
           </div>
         </div>
         <div class="card-body" style="background-color:#04AC84">
-          <form id="formValidar" method="POST" href="#">
+          <form id="formValidar" href="#" method="POST" >
             <div class="form-group">
               <label for="exampleInputEmail1">Nombre del alumno:</label>
               <input type="text" class="form-control" id="email" aria-describedby="emailHelp" name="nomAlumno" placeholder="Ingrese su nombre" required>
