@@ -1,25 +1,32 @@
 //Código para Datables
 
-//$('#example').DataTable(); //Para inicializar datatables de la manera más simple
+//$('#example').DataTable(); //Para inicializar datatables de la manera más simple  
 
-$(document).ready(function () {
-    console.log("Leyendo document ready");
-    $('#tl_convocatoria').DataTable({
-        //para cambiar el lenguaje a español
+$(document).ready(function() {
+    $('#mydatatable tfoot th').each( function () {
+        var title = $(this).text();
+        $(this).html( '<input type="text" placeholder="Filtrar.." />' );
+    } );
+
+    var table = $('#mydatatable').DataTable({
+        "dom": 'B<"float-left"i><"float-right"f>t<"float-left"l><"float-right"p><"clearfix">',
+        "responsive": true,
         "language": {
-            "lengthMenu": "Mostrar _MENU_ registros",
-            "zeroRecords": "No se encontraron resultados",
-            "info": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
-            "infoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
-            "infoFiltered": "(filtrado de un total de _MAX_ registros)",
-            "sSearch": "Buscar:",
-            "oPaginate": {
-                "sFirst": "Primero",
-                "sLast": "Último",
-                "sNext": "Siguiente",
-                "sPrevious": "Anterior"
-            },
-            "sProcessing": "Procesando...",
+            "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"
+        },
+        "order": [[ 0, "desc" ]],
+        "initComplete": function () {
+            this.api().columns().every( function () {
+                var that = this;
+
+                $( 'input', this.footer() ).on( 'keyup change', function () {
+                    if ( that.search() !== this.value ) {
+                        that
+                            .search( this.value )
+                            .draw();
+                        }
+                });
+            })
         }
     });
 });

@@ -22,7 +22,7 @@
 
     <link href="../../css/convocatorias.css" rel="stylesheet" />
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     <!-- JavaScript -->
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
@@ -40,12 +40,12 @@
 
         <div class="container">
 
-            <div class="card col-md-12 mt-5 pb-5" style="margin-bottom: 6rem; background-color:#1abc9c">
+            <div class="card col-md-12 mt-5 pb-5 pt-4" style="margin-bottom: 6rem; background-color:#1abc9c">
                 <div class="card-title mx-auto">
                     <h4 class="mx-auto">Listado de convocatorias</h4>
                 </div>
                 <div class="card-body border border-dark" style=" background-color:white;">
-                    <table id="tl_convocatoria" class="table table-bordered table-hover">
+                    <table id="mydatatable" class="table table-bordered table-hover">
                         <thead>
                             <tr class="" style="background-color: #5dbcd2; color:white">
                                 <th>Nombre de la convocatoria</th>
@@ -55,6 +55,15 @@
                                 <th>Acciones</th>
                             </tr>
                         </thead>
+                        <tfoot>
+                            <tr>
+                                <th>Filter..</th>
+                                <th>Filter..</th>
+                                <th>Filter..</th>
+                                <th>Filter..</th>
+                                <th>Filter..</th>
+                            </tr>
+                        </tfoot>
                         <tbody>
                             <tr class="bg-light">
                                 <td>Convocatoria Ingles</td>
@@ -62,7 +71,7 @@
                                 <td>Externa</td>
                                 <td>Ingles</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -80,7 +89,7 @@
                                 <td>Interna-Externa</td>
                                 <td>TIC's</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/personaltics.pdf" >Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -89,7 +98,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Administracion</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -98,7 +107,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Ingles</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -107,7 +116,7 @@
                                 <td>Externa</td>
                                 <td>Ingles</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -116,7 +125,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Personal de promoción</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -125,7 +134,7 @@
                                 <td>Externa</td>
                                 <td>Inglés</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -134,7 +143,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Personal de promoción</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -143,7 +152,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Personal de promoción</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -152,7 +161,7 @@
                                 <td>Externa</td>
                                 <td>Evaluador</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -161,7 +170,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Laboratorista</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -170,7 +179,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Especialista en Programación y Presupuesto</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -179,7 +188,7 @@
                                 <td>Externa</td>
                                 <td>Evaluador</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -188,7 +197,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Personal de promoción</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -197,7 +206,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Personal Docente</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white"  href="../../archivos/convocatorias/convocatorianumproceso.pdf">Ver convocatoria</a>
                                 </td>
                             </tr>
                             <tr class="bg-light">
@@ -206,7 +215,7 @@
                                 <td>Interna-Externa</td>
                                 <td>Personal Docente</td>
                                 <td>
-                                    <a class="btn btn-success" style="color:white" id="">Ver convocatoria</a>
+                                    <a class="btn btn-success" style="color:white" href="../../archivos/convocatorias/docenteasignatura01.pdf" >Ver convocatoria</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -220,6 +229,15 @@
 
     </header>
 
+    <style>
+        #mydatatable tfoot input {
+            width: 100% !important;
+        }
+
+        #mydatatable tfoot {
+            display: table-header-group !important;
+        }
+    </style>
 
 
     <?php include '../Plantillas/footer.php'; ?>
