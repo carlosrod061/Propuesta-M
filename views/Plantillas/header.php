@@ -1,6 +1,16 @@
 
 	<nav class="navbar navbar-expand-lg text-uppercase fixed-top" style="background-color: #2c4cbc;" id="mainNav">
 		<div id="contenidoBarra" class="container">
+		<script type="text/javascript">
+			var _smartsupp = _smartsupp || {};
+			_smartsupp.key = '26d9fef0fd02282525477d65aca1e00032d8c186';
+			window.smartsupp||(function(d) {
+  				var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  				s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  				c.type='text/javascript';c.charset='utf-8';c.async=true;
+  				c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+			})(document);
+		</script>	
 		  <a class="navbar-brand js-scroll-trigger" href="../Inicio/inicio.php"><img src="../../assets/img/logoUniversidad.png" alt=""></a>
 		  <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
 			type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
