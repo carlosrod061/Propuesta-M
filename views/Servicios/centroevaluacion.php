@@ -19,6 +19,20 @@
   <link href="../../css/styles.css" rel="stylesheet" />
   <link href="../../css/servicios.css" rel="stylesheet" />
   <link href="../../css/servicios/seguimiento.css" rel="stylesheet" />
+
+  <!-- Datatables -->
+    <!-- Bootstrap CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+
+    <link href="../../css/convocatorias.css" rel="stylesheet" />
+
+    
+    <!-- JavaScript -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -121,33 +135,74 @@
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header" id="headingFour">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
-                aria-expanded="false" aria-controls="collapseThree">
-                Estándares de competencia acreditados para capacitación y evaluació del Centro Evaluador UTNG:
-              </button>
-            </h5>
-          </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-            <div class="card-body">
-             <ul class="list-group">
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0076 Evaluación de la competencia de candidatos con base en Estándares de Competencia</span> <a href="https://media.utng.edu.mx/index.php/s/DxoCIehi8zKj0Vq" class="secondary-content"> <i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0107 Manejo de procesador de textos digitales</span> <a href="https://media.utng.edu.mx/index.php/s/homVp3cJ1OUfENt" class="secondary-content"><i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0108 Manejo del procesador de hojas de cálculo digitales</span> <a href="https://media.utng.edu.mx/index.php/s/yfdQ2rYVKw9UqOu" class="secondary-content"> <i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0109 Manejo de procesadores de presentaciones digitales.</span> <a href="https://media.utng.edu.mx/index.php/s/F0Fg5dsXtOfGnkf" class="secondary-content"><i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0217 Impartición de cursos de formación del capital humano de manera presencial</span> <a href="https://media.utng.edu.mx/index.php/s/hsPzrtUKZxFAECd" class="secondary-content"> <i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0301 Diseño de cursos de formación del capital humano de manera presencial grupal, sus instrumentos de evaluación y manuales del curso.</span> <a href="https://media.utng.edu.mx/index.php/s/pdyPNwepVZycwBJ" class="secondary-content"> <i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0305 Prestación de servicios de atención a clientes</span> <a href="https://media.utng.edu.mx/index.php/s/Pu5OWupFJLU4Wcy" class="secondary-content"> <i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0306 Reclutamiento y Selección de Personal Operativo y Administrativo</span> <a href="https://media.utng.edu.mx/index.php/s/Qqc2lCbClAPpo9u" class="secondary-content"> <i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0586.01 Instalación de sistemas fotovoltaicos en residencia, comercio e industria</span> <a href="https://media.utng.edu.mx/index.php/s/sh5nt0IGG2DvBK2" class="secondary-content"> <i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0614 Dirección de centros de incubación y desarrollo e mpresarial.</span> <a href="https://media.utng.edu.mx/index.php/s/DldIgsr7klgOxXThttps://media.utng.edu.mx/index.php/s/DldIgsr7klgOxXThttps://media.utng.edu.mx/index.php/s/DldIgsr7klgOxXT" class="secondary-content"> <i class="fas fa-info-circle"></i></a></li>
-                <li class="list-group-item avatar"><img src="../../assets/img/GaleriaServicios/centroevaluacion/nube.png" width=30 height=25 class="imgCir"> <span class="title"> EC0647 Propiciar el aprendizaje significativo en Educación Media Superior y Superior.</span> <a href="https://media.utng.edu.mx/index.php/s/I7oh59NTPTS42RP" class="secondary-content"> <i class="fas fa-info-circle"></i></a></li>
-	    	</ul>
+        
+        <div class="card col-md-12 mt-5 pb-5 pt-4" style="margin-bottom: 6rem; background-color:#1abc9c">
+                <div class="card-title mx-auto">
+                    <h4 class="mx-auto">Estándares de competencia acreditados para capacitación y evaluació del Centro Evaluador UTNG:</h4>
+                </div>
+                <div class="card-body border border-dark" style=" background-color:white;">
+                    <table id="mydatatable" class="table table-bordered table-hover">
+                        <thead>
+                            <tr class="" style="background-color: #5dbcd2; color:white">
+                                <th>Nombre de estándares</th>
+                                <th>Documentos</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>Filter..</th>
+                                <th>Filter..</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr class="bg-light" >
+                                <td>EC0076 Evaluación de la competencia de candidatos con base en Estándares de Competencia 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/DxoCIehi8zKj0Vq">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0107 Manejo de procesador de textos digitales 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/homVp3cJ1OUfENt">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0108 Manejo del procesador de hojas de cálculo digitales 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/yfdQ2rYVKw9UqOu">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0109 Manejo de procesadores de presentaciones digitales 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/F0Fg5dsXtOfGnkf">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0217 Impartición de cursos de formación del capital humano de manera presencial 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/hsPzrtUKZxFAECd">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0301 Diseño de cursos de formación del capital humano de manera presencial grupal, sus instrumentos de evaluación y manuales del curso 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/pdyPNwepVZycwBJ">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0305 Prestación de servicios de atención a clientes 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/Pu5OWupFJLU4Wcy">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0306 Reclutamiento y Selección de Personal Operativo y Administrativo 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/Qqc2lCbClAPpo9u">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0586.01 Instalación de sistemas fotovoltaicos en residencia, comercio e industria 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/sh5nt0IGG2DvBK2">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0614 Dirección de centros de incubación y desarrollo empresarial 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/DldIgsr7klgOxXT">Ver documento</a></td>
+                            </tr>
+                            <tr class="bg-light">
+                                <td>EC0647 Propiciar el aprendizaje significativo en Educación Media Superior y Superior 
+                                <td><a class="btn btn-success" style="color:white" href="https://media.utng.edu.mx/index.php/s/I7oh59NTPTS42RP">Ver documento</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-          </div>
-        </div>
       </div> 
 
       <!--Info para llamar al servicio-->
@@ -176,6 +231,16 @@
 
   </header>
 
+  <style>
+        #mydatatable tfoot input {
+            width: 100% !important;
+        }
+
+        #mydatatable tfoot {
+            display: table-header-group !important;
+        }
+    </style>
+
 
 
   <?php include '../Plantillas/footer.php';?>
@@ -190,6 +255,18 @@
   <script src="assets/mail/contact_me.js"></script>
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
+
+  <!-- Datatables -->
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="../../assets/datatable_recursos/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../../assets/datatable_recursos/popper/popper.min.js"></script>
+    <script src="../../assets/datatable_recursos/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- datatables JS -->
+    <script type="text/javascript" src="../../assets/datatable_recursos/datatables/datatables.min.js"></script>
+    <script src="../../js/convocatorias.js"></script>
+
 </body>
 
 </html>
+
