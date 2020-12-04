@@ -279,6 +279,10 @@ El Departamento de Educación Continua ofrece servicios de actualización, capac
         </div>
       </div> 
 
+      <div class="row">
+          <a href="./solicitud_capacitación_adiestramiento.php" class="mx-auto mt-4"> <button type="button" class="btn btn-primary" style="background-color:#2c4cbc">Solicitar servicio</button> </a>  
+      </div>
+
       <!--Info para llamar al servicio-->
       <div class="card mx-auto mt-4" style="width: 50%;" id="infoservicio">
         <div class="row">
