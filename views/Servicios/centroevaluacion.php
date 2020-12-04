@@ -203,7 +203,47 @@
                     </table>
                 </div>
             </div>
-      </div> 
+
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    Filosofía del CE:
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">• MISIÓN: Somos un Centro de Evaluación acreditado por el Consejo Nacional 
+                    de Normalización y Certificación de Competencias Laborales (CONOCER), que ofrece servicios de 
+                    capacitación dirigidos a la evaluación de competencias laborales, que contribuye al desarrollo 
+                    profesional y económico del norte y noreste del Estado de Guanajuato e impulsa la competitividad 
+                    de las personas con base en los diferentes sectores, desarrollando su potencial con base en 
+                    conocimientos, habilidades, destrezas y actitudes.</li>
+                    <li class="list-group-item">• VISIÓN: En el 2023 ser un Centro de Evaluación reconocido en el Estado, que 
+                    impulse el desarrollo económico, a través de las evaluaciones de competencias, logrando ofrecer al 
+                    Estado un amplio abanico de recursos humanos altamente competentes y certificados.</li>
+                    <li class="list-group-item">• VALORES: 
+                      <br> - Compromiso.
+                      <br> - Comunicación.
+                      <br> - Honestidad.
+                      <br> - Igualdad.
+                      <br> - Respeto.
+                      <br> - Responsabilidad.
+                      <br> - Trabajo en equipo
+                      <br> - Transparencia.
+                    </li>
+                    <li class="list-group-item">• POLÍTICA DE CALIDAD: El Centro de Evaluación UTNG, se compromete con 
+                    los profesionistas, empresarios, asociaciones, dependencias gubernamentales y público en general, 
+                    en brindar servicios de calidad en los procesos de capacitación orientados a la evaluación del 
+                    CONOCER para su certificación dentro de los Estándares de Competencia.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
 
       <!--Info para llamar al servicio-->
       <div class="card mx-auto mt-4" style="width: 50%;" id="infoservicio">
