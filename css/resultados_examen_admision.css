@@ -11,6 +11,29 @@
     padding-top: 12rem;
 }
 
+#procesoAdmision{
+    margin-top: 2rem;
+    background-image: url('../assets/img/aspirantes_inscripcion.jpg');
+    height: 240px;
+    padding-top: 7rem;
+}
+
+#procesoAdmision p{
+    font: bold;
+    font-size: larger;
+    color: white;
+}
+
+#procesoAdmision a{
+    text-decoration: none;
+    color: white;
+}
+
+#banderilla{
+    background-color: #08daff;
+}
+
+
 #modalTSU{
     height: 90%;
     margin-top: 2rem;

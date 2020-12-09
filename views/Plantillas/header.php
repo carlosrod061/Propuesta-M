@@ -1,6 +1,5 @@
-	<nav class="navbar navbar-expand-lg text-uppercase fixed-top" style="background-color: #2c4cbc;" id="mainNav">
+<nav class="navbar navbar-expand-lg text-uppercase fixed-top" style="background-color: #2c4cbc;" id="mainNav">
 		<div id="contenidoBarra" class="container">
-
 			<script type="text/javascript">
 				var _smartsupp = _smartsupp || {};
 				_smartsupp.key = '26d9fef0fd02282525477d65aca1e00032d8c186';
@@ -46,8 +45,7 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="#">¿Porque estudiar en la UTNG?</a>
-
-							<a class="dropdown-item" href="#">Modelo Educativo</a>
+							<a class="dropdown-item" href="../Aspirantes/modelo_edu.php">Modelo Educativo</a>
 							<a class="dropdown-item" href="../Aspirantes/resultados_examen_admision.php">Resultados del examen de admision</a>
 							<a class="dropdown-item" href="#">Proceso de admision</a>
 						</div>

@@ -49,6 +49,11 @@
                 <div class="" id="Ingenieria">
                     <button type="button" id="btnIngenieria" class="btn btn-primary" data-toggle="modal" data-target="#modalIngenieria">Resultados de admision Ingenieria</button>
                 </div>
+                <div class="" id="procesoAdmision">
+                    <div id="banderilla"><p class="titulosEA">&nbsp;Proceso de inscripción virtual 2020-TSU</p></div>
+                    <button class="btn btn-primary"><a href="https://media.utng.edu.mx/index.php/s/Vc16zelAvq4dby6">Campus Dolores Hidalgo</a></button>
+                    <button class="btn btn-primary"><a href="https://media.utng.edu.mx/index.php/s/frnepmA1Jh4vimc">Campus Victoria</a></button>
+                </div>
 
             </div>
 
@@ -89,7 +94,7 @@
                         <!--Footer-->
                         <div class="modal-footer justify-content-center">
 
-                            <button type="button" class="btn btn-danger btn-rounded btn-md ml-4 mr-0" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger btn-rounded btn-md ml-4 mr-0" data-dismiss="modal">Cerrar</button>
 
                         </div>
 
@@ -137,7 +142,7 @@
                         <!--Footer-->
                         <div class="modal-footer justify-content-center">
 
-                            <button type="button" class="btn btn-danger btn-rounded btn-md ml-4 mr-0" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger btn-rounded btn-md ml-4 mr-0" data-dismiss="modal">Cerrar</button>
 
                         </div>
 
