@@ -1,5 +1,6 @@
 	<nav class="navbar navbar-expand-lg text-uppercase fixed-top" style="background-color: #2c4cbc;" id="mainNav">
 		<div id="contenidoBarra" class="container">
+
 			<script type="text/javascript">
 				var _smartsupp = _smartsupp || {};
 				_smartsupp.key = '26d9fef0fd02282525477d65aca1e00032d8c186';
