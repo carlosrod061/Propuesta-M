@@ -41,6 +41,18 @@
 					</li>
 					<li class="mx-0 mx-lg-1 nav-item dropdown">
 						<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Aspirantes
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">¿Porque estudiar en la UTNG?</a>
+
+							<a class="dropdown-item" href="#">Modelo Educativo</a>
+							<a class="dropdown-item" href="../Aspirantes/resultados_examen_admision.php">Resultados del examen de admision</a>
+							<a class="dropdown-item" href="#">Proceso de admision</a>
+						</div>
+					</li>
+					<li class="mx-0 mx-lg-1 nav-item dropdown">
+						<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Estudiantes
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
