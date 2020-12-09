@@ -1,0 +1,12 @@
+.card-body{
+    color: white !important;
+}
+footer{
+    background-color: black;
+}
+#mydatatable tfoot input{
+    width: 100% !important;
+}
+#mydatatable tfoot {
+    display: table-header-group !important;
+}

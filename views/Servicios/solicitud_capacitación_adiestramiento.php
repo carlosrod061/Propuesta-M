@@ -19,7 +19,7 @@
   <link href="../../css/styles.css" rel="stylesheet" />
   <link href="../../css/servicios.css" rel="stylesheet" />
   <link href="../../css/servicios/seguimiento.css" rel="stylesheet" />
-  <script src="../../js/solicitud_bolsa_trabajo.js"> </script>
+  <script src="../../js/solicitud_capacitacion_adiestramiento.js"> </script>
   <!-- JavaScript -->
   <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
@@ -62,8 +62,8 @@
           </div>
         </div>
         <div class="card-body" style="background-color:#04AC84">
-          <form id="formValidar" href="#" method="POST" >
-            <div class="form-group">
+          <form id="formValidar" href="#" method="POST">
+          <div class="form-group">
               <label for="exampleInputEmail1">Nombre del alumno:</label>
               <input type="text" class="form-control" id="email" aria-describedby="emailHelp" name="nomAlumno" placeholder="Ingrese su nombre" required>
 
@@ -99,17 +99,28 @@
             </div>
             <label for="exampleInput2">Tipo de servicio</label>
             <select class="form-control" id="tipoServicio" onchange="getval(this);" name="nomServicio">
-              <option>Talleres para buscadores activos de empleo</option>
-              <option>Revisión de CV Tip’s para búsqueda de empleo</option>
-              <option>Bolsas de trabajo en línea</option>
-              <option>Difusión de programas de apoyo al autoempleo</option>
-              <option>Apoyo para la postulación de vacantes registradas en BT.</option>
+              <option>Conferencias.</option>
+              <option>Talleres.</option>
+              <option>Cursos.</option>
+              <option>Seminarios.</option>
+              <option>Diplomados.</option>
+
+              <option>Desarrollo Humano.</option>
+              <option>Desarrollo Organizacional.</option>
+              <option>Comunicación.</option>
+              <option>Idiomas.</option>
+              <option>Tecnologías de la Información y Comunicación.</option>
+
+              <option>Áreas económico-administrativas.</option>
+              <option>Industrial, eléctrica y electrónica.</option>
+              <option>Ecología y cuidado del medio ambiente.</option>
+              <option>Salud física.</option>
+
             </select>
             <div class="form-group">
               <label for="exampleInputPassword1">Comentarios:</label>
               <textarea class="form-control" rows="3" placeholder="Añadir comentarios"></textarea>
             </div>
-
 
             <div class="row" id="CargaArchivo"></div>
 
@@ -120,7 +131,7 @@
             </div>
           </form>
 
-          <?php include("correo.php") ?>
+          <?php include("correocapacitacion.php") ?>
 
         </div>
       </div>
