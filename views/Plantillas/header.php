@@ -44,7 +44,7 @@
 							Aspirantes
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">¿Porque estudiar en la UTNG?</a>
+							<a class="dropdown-item" href="../Aspirantes/Porque_Estudiar_utng.php">¿Porque estudiar en la UTNG?</a>
 							<a class="dropdown-item" href="../Aspirantes/modelo_edu.php">Modelo Educativo</a>
 							<a class="dropdown-item" href="../Aspirantes/resultados_examen_admision.php">Resultados del examen de admision</a>
 							<a class="dropdown-item" href="../Aspirantes/procesoadmision.php">Proceso de admision</a>
@@ -86,6 +86,5 @@
 				</ul>
 			</div>
 			<a href="" class="ml-5"><img src="../../assets/img/wheelchair.png" width="25" height="25"></a>
-
 		</div>
 	</nav>

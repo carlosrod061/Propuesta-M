@@ -41,13 +41,11 @@
 
 }
 
-.card-body{
-    margin-top: 5rem;
-}
 
 #modalTSU .card-body a{
     text-decoration: none;
     color: white;
+    margin-top: 5rem;
 }
 
 #modalIngenieria{
@@ -59,4 +57,5 @@
 #modalIngenieria .card-body a{
     text-decoration: none;
     color: white;
+    margin-top: 5rem;
 }
