@@ -1,0 +1,62 @@
+#TSU{
+    background-image: url('https://www.utng.edu.mx/assets/principal/carreras/carrerasBanner.jpg');
+    height: 240px;
+    padding-top: 12rem;
+}
+
+#Ingenieria{
+    margin-top: 2rem;
+    background-image: url('https://www.utng.edu.mx/assets/principal/estudiantes/banner/becasBanner.jpg');
+    height: 240px;
+    padding-top: 12rem;
+}
+
+#procesoAdmision{
+    margin-top: 2rem;
+    background-image: url('../assets/img/aspirantes_inscripcion.jpg');
+    height: 240px;
+    padding-top: 7rem;
+}
+
+#procesoAdmision p{
+    font: bold;
+    font-size: larger;
+    color: white;
+}
+
+#procesoAdmision a{
+    text-decoration: none;
+    color: white;
+}
+
+#banderilla{
+    background-color: #08daff;
+}
+
+
+#modalTSU{
+    height: 90%;
+    margin-top: 2rem;
+    max-width: 200% !important;
+
+}
+
+.card-body{
+    margin-top: 5rem;
+}
+
+#modalTSU .card-body a{
+    text-decoration: none;
+    color: white;
+}
+
+#modalIngenieria{
+    height: 90%;
+    margin-top: 2rem;
+    max-width: 200% !important;
+}
+
+#modalIngenieria .card-body a{
+    text-decoration: none;
+    color: white;
+}

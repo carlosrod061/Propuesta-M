@@ -1,6 +1,6 @@
 
   <!-- Footer-->
-  <footer id="footerp">
+  <footer id="footerp" style="background-color: #2c4cbc; color: white">
     <div class="container">
       <div class="row" style="padding-top: 30px;">
         <!-- Footer Location-->
