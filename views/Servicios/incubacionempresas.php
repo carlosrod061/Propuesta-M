@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
     type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link href="../../css/styles.css" rel="stylesheet" />
   <link href="../../css/servicios.css" rel="stylesheet" />
   <link href="../../css/servicios/seguimiento.css" rel="stylesheet" />
@@ -38,28 +39,9 @@
         </div>
       </div>
 
-      <!--CARROUSEL CON IMAGENES-->
-      <div id="carouselExampleIndicators" class="carousel slide col-md-8 mx-auto" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="../../assets/img/GaleriaServicios/incubaciondeempresas/incubadoras.jpg" alt="First slide" height="350">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+     
 
+  
       <!-- CONTENIDO RELEVANTE DE LA SECCION-->
       <div id="accordion">
         <div class="card">
@@ -247,14 +229,17 @@
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
                 aria-expanded="false" aria-controls="collapseThree">
                 Servicios de fortelecimiento empresarial
-              </button>
+              </button>     
+              <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Solicitar</button>                       
             </h5>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
+                                                                                                 
                         <ul class="list-group">
                             <li class="list-group-item">Capacitación, consultoría y
-                                asesoría para el desarrollo del modelo y plan de negocios.</li>
+                                asesoría para el desarrollo del modelo y plan de negocios.                                
+                            </li>
                             <li class="list-group-item">Acompañamiento y
                                 vinculación a esquemas de apoyo y financiamiento para
                                 emprendedores.</li>
@@ -280,7 +265,7 @@
                                 diseño de piezas publicitarias.</li>
                             <li class="list-group-item">Asesoría técnica para
                                 integración de proyectos de fomento al autoempleo.</li>
-                         </ul>
+                         </ul>                                                                          
             </div>
           </div>
         </div>
@@ -348,8 +333,8 @@
           </div>
           <div class="col-md-6">
             <ul class="list-group list-group-flush" id="contactoinfo">
-              <li class="list-group-item"> <i class="fas fa-user"></i>Juana Martha Serna Quintero </li>
-              <li class="list-group-item"><i class="fas fa-envelope"></i>cideng@utng.edu.mx</li>
+              <li class="list-group-item"> <i class="fas fa-user"></i> Juana Martha Serna Quintero </li>
+              <li class="list-group-item"><i class="fas fa-envelope"></i> cideng@utng.edu.mx</li>
               <li class="list-group-item"><i class="fas fa-phone-square"></i> Tel:18 2 55 00 ext. 1311</li>
             </ul>
           </div>
@@ -357,11 +342,59 @@
         </div>
        
       </div>
-
+    </div>
+  </header>
+  <div>
+    <!--MODAL-->
+    
+       
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Servicios de fortelecimiento empresarial</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="validaServicioEmp" method="POST" href="#">
+            <div class="modal-body">            
+                <p>En este apartado podras solicitar los formatos necesarios segun el tipo de servicio de fortelecimiento empresarial que necesites.</p>
+                <div class="form-group mb-3">                                
+                  <select class="form-control" aria-label="Default select example" id="servicio" name="servicio">
+                    <option selected>Seleccione servicio</option>
+                    <option value="Capacitación, consultoría y asesoría para el">Capacitación, consultoría y asesoría para el desarrollo del modelo y plan de negocios.  </option>
+                    <option value="Acompañamiento y vinculación a esq">Acompañamiento y vinculación a esquemas de apoyo y financiamiento para emprendedores.</option>
+                    <option value="Asesoría en la elaboración de proyec">Asesoría en la elaboración de proyectos ejecutivos.</option>
+                    <option value="Alojamiento físico para negociacio">Alojamiento físico para negociaciones y acuerdos comerciales de emprendedores y clientes.</option>
+                    <option value="Desarrollo de investigaciones de m">Desarrollo de investigaciones de mercados.</option>
+                    <option value="Generación de estrategias para emprendedores">Generación de estrategias para emprendedores y empresarios.</option>
+                    <option value="Diagnósticos empresariale">Diagnósticos empresariales.</option>
+                    <option value="Asesoría fiscal">Asesoría fiscal.</option>
+                    <option value="Asesoría en comercio electrón">Asesoría en comercio electrónico y redes sociales.</option>
+                    <option value="Asesoría en propiedad intelec">Asesoría en propiedad intelectual(Registro de marcas, patentes y derechos de autor).</option>
+                    <option value="Asesoría en análisis nutrimental y códi">Asesoría en análisis nutrimental y código de barras.</option>
+                    <option value="Asesoría en tramites para la apertu">Asesoría en tramites para la apertura del negocio.</option>
+                    <option value="Desarrollo de imagen corporativa y dis">Desarrollo de imagen corporativa y diseño de piezas publicitarias.</option>
+                    <option value="Asesoría técnica para integración de proyectos de f">Asesoría técnica para integración de proyectos de fomento al autoempleo.</option>
+                  </select>
+                </div>
+                <div class="form-group mb-3">                
+                  <input type="email" class="form-control" id="correo" name="correo" aria-describedby="correo" require placeholder="Correo electrónico">
+                  <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                </div>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary" name="enviar" id="enviar">Enviar</button>
+            </div>
+          </form>
+          <?php include("correoServicio.php")?>
+        </div>
+      </div>
     </div>
 
-
-  </header>
+    <!--MODAL-->
+    </div>
 
 
 
@@ -377,6 +410,7 @@
   <script src="assets/mail/contact_me.js"></script>
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
 </html>
