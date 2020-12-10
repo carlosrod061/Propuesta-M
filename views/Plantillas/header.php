@@ -47,7 +47,7 @@
 							<a class="dropdown-item" href="#">¿Porque estudiar en la UTNG?</a>
 							<a class="dropdown-item" href="../Aspirantes/modelo_edu.php">Modelo Educativo</a>
 							<a class="dropdown-item" href="../Aspirantes/resultados_examen_admision.php">Resultados del examen de admision</a>
-							<a class="dropdown-item" href="#">Proceso de admision</a>
+							<a class="dropdown-item" href="../Aspirantes/procesoadmision.php">Proceso de admision</a>
 						</div>
 					</li>
 					<li class="mx-0 mx-lg-1 nav-item dropdown">
