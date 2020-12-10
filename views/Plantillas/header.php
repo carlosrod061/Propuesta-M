@@ -42,6 +42,7 @@
 								<a class="dropdown-item" href="../Estudiantes/estadiasprofesionales.php">Estadias Profesionales</a>	
 								<a class="dropdown-item" href="estudiantes.html">Movilidad Estudantil</a>	
 								<a class="dropdown-item" href="estudiantes.html">CNBES</a>
+								<a class="dropdown-item" href="../Estudiantes/Porque_Estudiar_utng.php">Porque Estudian en la UTNG</a>
 			  </div>
 			</li>
 			  <li class="mx-0 mx-lg-1 nav-item dropdown">
