@@ -86,5 +86,6 @@
 				</ul>
 			</div>
 			<a href="" class="ml-5"><img src="../../assets/img/wheelchair.png" width="25" height="25"></a>
+
 		</div>
 	</nav>
